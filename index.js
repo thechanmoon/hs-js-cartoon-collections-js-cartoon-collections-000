@@ -36,7 +36,13 @@ function findTheCheese (foods) {
   let retVal = 'no cheese!';
   for(i = 0; i < foods.length; i++)
   {
-    if(foods[i].includes("cheddar") || foods[i].includes("gouda") || foods[i].includes("camembert"))
+    // if(foods[i].includes("cheddar") || foods[i].includes("gouda") || foods[i].includes("camembert"))
+    // {
+    //   retVal = foods[i];
+    //   break;
+    // }
+    
+    if(foods[i]==="cheddar" || foods[i]==="gouda" || foods[i]==="camembert")
     {
       retVal = foods[i];
       break;

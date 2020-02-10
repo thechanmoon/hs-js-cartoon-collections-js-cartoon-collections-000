@@ -44,7 +44,7 @@ function findTheCheese (foods) {
     // }
     
     for( j = 0 ; j < cheese.length; j++)
-    if(foods[i]=== cheese[j])
+    if(foods[i] === cheese[j])
     {
       retVal = foods[i];
       break;

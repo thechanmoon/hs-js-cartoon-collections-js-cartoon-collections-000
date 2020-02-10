@@ -3,7 +3,11 @@ function dwarfRollCall(dwarves) {
   let retVal = ''; 
   for(i = 0; i < dwarves.length; i++)
   {
-    retVal += `${i+1}. ${dwarves[i]} ` 
+    if(i > dwarves.length/2)
+    {
+      retVal += `${i+1}. ${dwarves[i]} ` 
+      break;
+    }
   }
   return retVal;
 }

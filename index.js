@@ -12,6 +12,20 @@ function dwarfRollCall(dwarves) {
   return retVal;
 }
 
+function firstWord(word)
+{
+  let retVal= [];
+  let i = 0;
+  for(i = 0; i < word.length; i++)
+  {
+    if(word.slice(0,1) === 'b')
+    {
+      retVal.push(word[i]);
+    }
+  }
+  return retVal;
+}
+
 function summonCaptainPlanet(planeteerCalls){
   let i = 0;
   for(i = 0; i < planeteerCalls.length; i++)

@@ -18,7 +18,7 @@ function firstWord(word)
   let i = 0;
   for(i = 0; i < word.length; i++)
   {
-    if(word.slice(0,1) === 'b')
+    if(word[i].slice(0,1) === 'b')
     {
       retVal.push(word[i]);
     }
